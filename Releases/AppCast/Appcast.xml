@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="1.0" xmlns:sparkle="https://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Amphetamine Enhancer Changelog</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0</title>
+            <sparkle:releaseNotesLink>
+                https://raw.githubusercontent.com/x74353/Amphetamine-Enhancer/master/Releases/Release%20Notes/1%2C0%2C1/amphEnh_1%2C0%2C1_releaseNotes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+            <!-- Sparkle 1.21+ uses sparkle::edSignature="ed25519" instead of sparkle::dsaSignature="deprecated DSA" -->
+            <enclosure url="https://github.com/x74353/Amphetamine-Enhancer/raw/master/Releases/Current/Amphetamine%20Enhancer.dmg" sparkle:version="1.0" length="1623481" type="application/octet-stream" sparkle:dsaSignature="BAFJW4B6B1K1JyW30nbkBwainOzrN6EQuAh" />
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
+</rss>
