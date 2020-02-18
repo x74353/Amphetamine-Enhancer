@@ -1,14 +1,14 @@
 # Welcome to Amphetamine Enhancer
 
-<B>NOTE: Amphetamine Enhancer requires Amphetamine 4.3 which is still in beta.</B>
+<B>NOTE: Amphetamine Enhancer requires Amphetamine 5.0. Visit the Mac App Store to upgrade.</B>
 
 Want to skip the introduction and just download Amphetamine Enhancer? [Click here.](https://github.com/x74353/Amphetamine-Enhancer/raw/master/Releases/Current/Amphetamine%20Enhancer.dmg)
 
 <B> What is Amphetamine Enhancer? </B> <BR>
 Amphetamine Enhancer is a helper application that enhances a couple of Amphetamine's features. In its 1.0 release, Amphetamine Enhancer adds the following abilities to Amphetamine:
  
-• Adds a fail-safe for the closed-display mode feature found in Amphetamine 4.3+ <BR>
-• Gives Amphetamine 4.3+ the ability to use all running processes with Triggers and app-based sessions 
+• Adds a fail-safe for the closed-display mode feature found in Amphetamine 5.0+ <BR>
+• Gives Amphetamine 5.0+ the ability to use all running processes with Triggers and app-based sessions 
  
 More enhancements may be added in the future.
  
