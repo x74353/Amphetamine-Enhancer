@@ -368,6 +368,26 @@
         free(m);
     }
     
+    // APPLE SILICON MACBOOKS REPORT A MODEL SUCH AS "Mac16,7", WITHOUT "Book":
+    // A MAC WITH A LID EXPOSES "AppleClamshellState" ON THE POWER MANAGEMENT ROOT DOMAIN
+    if (!macIsBook)
+    {
+        io_service_t rootDomain = IOServiceGetMatchingService(kIOMasterPortDefault, IOServiceMatching("IOPMrootDomain"));
+        
+        if (rootDomain != IO_OBJECT_NULL)
+        {
+            CFTypeRef clamshellState = IORegistryEntryCreateCFProperty(rootDomain, CFSTR("AppleClamshellState"), kCFAllocatorDefault, 0);
+            
+            if (clamshellState != NULL)
+            {
+                macIsBook = YES;
+                CFRelease(clamshellState);
+            }
+            
+            IOObjectRelease(rootDomain);
+        }
+    }
+    
     return macIsBook;
 }
 

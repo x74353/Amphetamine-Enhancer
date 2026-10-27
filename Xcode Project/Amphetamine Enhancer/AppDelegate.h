@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #include <CoreFoundation/CoreFoundation.h>
 #include <sys/sysctl.h>
+#include <IOKit/IOKitLib.h>
 @import LetsMove;
 //@import Sparkle;
 
